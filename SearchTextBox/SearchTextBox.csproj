@@ -52,8 +52,8 @@
     <Compile Include="SearchTextBox.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\search_clear.png" />
-    <Content Include="Resources\search_glyph.png" />
+    <Resource Include="Resources\search_clear.png" />
+    <Resource Include="Resources\search_glyph.png" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="ResourceDictionaries\Common.xaml">
@@ -87,10 +87,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>if $(ConfigurationName) == Release (
-  \\csd1\AppDev\Nuget\NuGet.exe pack $(ProjectDir)$(ProjectName).csproj -Prop Configuration=Release -Symbol
-  move /Y "$(TargetDir)*.nupkg" \\csd1\AppDev\Nuget
-)</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
