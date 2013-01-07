@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>WPFSearchTextBox</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Sean A. Hanley, David Owens</authors>
+    <owners>Sean A. Hanley</owners>
+    <licenseUrl>http://www.codeproject.com/info/cpol10.aspx</licenseUrl>
+    <projectUrl>http://github.com/yadyn/WPF-SearchTextBox</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>© Sean A. Hanley 2013</copyright>
+    <tags>wpf search textbox searchtextbox</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" />
+      <frameworkAssembly assemblyName="System.Core" />
+      <frameworkAssembly assemblyName="System.Xaml" />
+      <frameworkAssembly assemblyName="PresentationCore" />
+      <frameworkAssembly assemblyName="PresentationFramework" />
+      <frameworkAssembly assemblyName="WindowsBase" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
