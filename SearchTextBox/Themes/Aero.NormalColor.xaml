@@ -49,9 +49,6 @@
 						<Trigger Property="ToggleButton.IsChecked" Value="true">
 							<Setter Property="RenderPressed" TargetName="Chrome" Value="true"/>
 						</Trigger>
-						<Trigger Property="IsEnabled" Value="false">
-							<Setter Property="Effect" Value="{StaticResource GrayscaleEffect}"/>
-						</Trigger>
 					</ControlTemplate.Triggers>
 				</ControlTemplate>
 			</Setter.Value>
