@@ -14,3 +14,12 @@ An Explorer-style search textbox control for WPF.
     - No warranty/guarantee
 
 [1]: http://www.codeproject.com/info/cpol10.aspx
+
+## Themes ##
+![Demo](docs/img/demo.gif)
+* Classic
+* Aero Normal Color
+* Luna Homestead
+* Luna Metallic
+* Luna Normal Color
+* Royale Normal Color
